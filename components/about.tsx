@@ -20,29 +20,20 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="font-medium">Information Science: Machine Learning and Artificial Intelligence</span>, I've focused on building solutions at the intersection of data, engineering, and product strategy. With hands-on experience in developing{" "}
+        <span className="font-medium">machine learning models, designing intuitive dashboards, and streamlining data pipelines,</span> I've worked across industries to turn raw data into meaningful outcomes. My background combines technical depth in {" "}
+        <span className="italic">Python, SQL, and cloud platforms like AWS </span> with a practical understanding of <span className="underline">cross-functional collaboration,</span> allowing me to deliver insights that support real business impact. I'm passionate about solving complex problems, simplifying messy data, and building tools that make smart decisions easier.
+        I am currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a <span className="underline">data scientist, data analyst or a product manager.</span>
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        <span className="italic">When I'm not coding</span>, I enjoy hanging out with friends, playing
+        video games, watching movies, and have fun. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">building data pipelines</span>. I'm also
+        learning video editing.
       </p>
     </motion.section>
   );
