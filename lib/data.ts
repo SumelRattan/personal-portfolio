@@ -95,13 +95,13 @@ export const projectsData = [
     tags: ["NLP", "Tensorflow", "Data Wrangling", "Python", "Transformers", "Keras", "Model Evaluation"],
     imageUrl: BERT,
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  // },
 ] as const;
 
 export const skillsData = [
