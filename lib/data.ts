@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaChartLine } from "react-icons/fa";
-import { LuNetwork } from "react-icons/lu";
+import { LuGraduationCap, LuNetwork } from "react-icons/lu";
 import Poster from "@/public/Poster.png"
 import BERT from "@/public/BERT.png"
 import rmtdevImg from "@/public/rmtdev.png";
@@ -58,6 +58,25 @@ export const experiencesData = [
       "At Interra Systems, I streamlined ETL workflows, increasing data processing efficiency by 25% and reducing latency by 30%. I worked closely with stakeholders to design user-focused Power BI dashboards that boosted engagement by 20%. I also improved documentation quality using tools like Adobe RoboHelp and FrameMaker, enhancing clarity and increasing knowledge sharing by 40%.",
     icon: React.createElement(FaChartLine),
     date: "2021 - present",
+  },
+] as const;
+
+export const educationData = [
+  {
+    title: "University of Arizona - GPA: 3.9/4.0",
+    location: "Tucson, United States",
+    description:
+      "Master's in Information Science with a focus on Machine Learning and Artificial Intelligence. I gained hands-on experience in data analysis, machine learning, and information retrieval, and developed a strong foundation in programming languages such as Python, SQL and R.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - 2025",
+  },
+  {
+    title: "Chitkara University - GPA: 3.9/4.0",
+    location: "Chandigarh, India",
+    description:
+      "Bachelor's in Computer Science and Engineering with a focus on full stack development. I gained hands-on experience in software development, database management, and web technologies, and developed a strong foundation in programming languages such as Java, Python, and SQL. I immediately found a job before even graduating.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2023",
   },
 ] as const;
 
